@@ -1,0 +1,33 @@
+# Technical Design Document: Brandon_Cinema_Ticket_Presale
+
+# Name: Brandon Quayle
+# Date: August 27, 2026
+# Program Description: This program pre-sells a maximum of 20 cinema tickets. Each buyer may purchase between 1 and 4 tickets. After each purchase, the program displays the number of tickets remaining. The program continues until all tickets are sold and then displays the total number of buyers.
+
+## Function: main
+Runs the cinema ticket pre-sale program and keeps track of
+tickets sold and the total number of buyers.
+
+Parameters:
+    None
+
+Variables:
+    total_tickets (int): The total number of tickets available.
+    buyers (int): Keeps track of the total number of buyers.
+    tickets (int): The number of tickets purchased by each buyer.
+
+Logic:
+    1. Set the total number of available tickets to 20.
+    2. Set the number of buyers to 0.
+    3. Display the number of tickets remaining.
+    4. Ask the buyer to purchase between 1 and 4 tickets.
+    5. Check that the number entered is valid.
+    6. Subtract the purchased tickets from the total.
+    7. Add one to the number of buyers.
+    8. Continue until all 20 tickets have been sold.
+    9. Display the total number of buyers.
+
+Return:
+    None
+
+# Repository Link: https://github.com/brandonquayle24-star/COP2373
