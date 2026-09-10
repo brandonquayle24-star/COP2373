@@ -8,7 +8,7 @@ def main():
 
     Variables:
         total_tickets (int): The total number of tickets available.
-        buyers (int): Keeps track of the total number of buyers.
+       Total_buyers (int): Keeps track of the total number of buyers.
         tickets (int): The number of tickets purchased by each buyer.
 
     Logic:
@@ -27,7 +27,7 @@ def main():
     """
 
     total_tickets = 10
-    buyers = 0
+    total_buyers = 0
 
     print("Cinema Ticket Pre-Sale")
     print("----------------------")
@@ -42,7 +42,7 @@ def main():
             tickets = int(input("How many tickets would you like to buy (1-4)? "))
 
         total_tickets -= tickets
-        buyers += 1
+     Total_buyers += 1
 
     print("\nAll tickets have been sold!")
     print("Total number of buyers:", buyers)
