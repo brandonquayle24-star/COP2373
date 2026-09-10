@@ -35,7 +35,7 @@ def main():
     while total_tickets > 0:
         print("\nTickets remaining:", total_tickets)
 
-        tickets = int(input("How many tickets would you like to buy (1-4)? "))
+        tickets_wanted = int(input("How many cinema tickets would you like to purchase? "))
 
         while tickets < 1 or tickets > 4 or tickets > total_tickets:
             print("Invalid number of tickets.")
