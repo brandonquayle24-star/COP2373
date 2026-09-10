@@ -12,7 +12,7 @@ def main():
         tickets (int): The number of tickets purchased by each buyer.
 
     Logic:
-        1. Set the total number of available tickets to 20.
+        1. Set the total number of available tickets to 10.
         2. Set the number of buyers to 0.
         3. Display the number of tickets remaining.
         4. Ask the buyer to purchase between 1 and 4 tickets.
@@ -26,7 +26,7 @@ def main():
         None
     """
 
-    total_tickets = 20
+    total_tickets = 10
     buyers = 0
 
     print("Cinema Ticket Pre-Sale")
