@@ -1,0 +1,54 @@
+# Technical Design Document: Monthly_Expenses
+
+# Name: Brandon Quayle
+# Date: September 24, 2026
+# Program Description: Monthly Expense Analyzer
+
+## Function: calculate_expenses
+Description:
+Uses reduce to calculate the total expense and find the
+highest and lowest expenses.
+
+Parameters:
+expenses - list containing the expense types and amounts
+
+Variables:
+total_expense - total amount of all expenses
+highest_expense - expense with the highest amount
+lowest_expense - expense with the lowest amount
+
+Return:
+total_expense, highest_expense, lowest_expense
+
+## Function: get_expenses
+Description:
+Gets monthly expense information from the user.
+
+Parameters:
+None
+
+Variables:
+expenses - list that stores the expense type and amount
+expense_type - name of the expense entered by the user
+amount - dollar amount of the expense
+
+Return:
+expenses - list of all expenses entered by the user
+
+## Function: main
+Description:
+Runs the monthly expense program and displays the results.
+
+Parameters:
+None
+
+Variables:
+expenses - list returned from get_expenses
+total_expense - total amount of all expenses
+highest_expense - expense with the highest amount
+lowest_expense - expense with the lowest amount
+
+Return:
+None
+
+# Link to your repository: https://github.com/brandonquayle24-star/COP2373
